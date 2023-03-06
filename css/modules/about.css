@@ -1,0 +1,15 @@
+.about{
+    background-origin: padding-box;
+    height: 500px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    justify-content: space-around;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
