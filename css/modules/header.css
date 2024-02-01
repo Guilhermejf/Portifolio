@@ -1,36 +1,17 @@
-.menu{
+.header{
     display: flex;
-    height: 150px;
-    margin: 0 auto;
-    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
-    color: white;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    gap: 20px;
 }
 
-.menu h1{
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    
-
+.header .photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
-.menu ul{
-    font-family: 'Inter', sans-serif;
-    list-style: none;
-    display: flex;
-    font-size: x-large;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.menu li{
-    margin: 0 15px 0 15px;
-}
-
-.menu li:hover{
-    text-decoration: overline 3px blue;
-    cursor: pointer
+.title{
+    text-align: center;
+    font-family: 'NeueMachina'; 
 }

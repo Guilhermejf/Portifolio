@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: NeueMachina;
+    src: url('/assets/fonts/NeueMachina-Regular.otf');
+}
+
+.container{
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #000;
+    color: #FFF;
+}
