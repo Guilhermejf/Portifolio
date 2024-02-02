@@ -101,7 +101,7 @@
 
     .header{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
        
     }
 
@@ -112,6 +112,11 @@
     }
 
     .title{
-        width: 500px ;
+        width: 100% ;
+        text-align: center;
+    }
+    .header-info{
+        display: flex;
+        align-items: center;
     }
 }
