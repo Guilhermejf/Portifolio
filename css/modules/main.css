@@ -13,6 +13,7 @@
 }
 
 body{
+    min-height: 390px;
     background: rgb(0,7,255);
 background: linear-gradient(156deg, rgba(0,7,255,1) 0%, rgba(8,0,66,1) 32%, rgba(0,0,0,1) 47%, rgba(8,0,54,1) 65%, rgba(8,0,255,1) 100%);
 background-repeat: no-repeat;    
