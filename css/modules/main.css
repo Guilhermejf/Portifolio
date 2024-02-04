@@ -1,28 +1,34 @@
-
 @font-face {
-    font-family: NeueMachina;
-    src: url('/assets/fonts/NeueMachina-Regular.otf');
+  font-family: NeueMachina;
+  src: url("/assets/fonts/NeueMachina-Regular.otf");
 }
 
-.container{
-    border-radius: 1rem;
-    margin: 1rem;
-    border: 2px solid white;
-    padding: 1rem;
-    font-family: 'Open Sans', sans-serif;
+.container {
+  border-radius: 1rem;
+  margin: 1rem;
+  border: 2px solid white;
+  padding: 1rem;
+  font-family: "Open Sans", sans-serif;
 }
 
-body{
-    min-height: 390px;
-    background: rgb(0,7,255);
-background: linear-gradient(156deg, rgba(0,7,255,1) 0%, rgba(8,0,66,1) 32%, rgba(0,0,0,1) 47%, rgba(8,0,54,1) 65%, rgba(8,0,255,1) 100%);
-background-repeat: no-repeat;    
-color: #FFF;
+body {
+  
+  background: rgb(0, 7, 255);
+  background: linear-gradient(
+    156deg,
+    rgba(0, 7, 255, 1) 0%,
+    rgba(8, 0, 66, 1) 32%,
+    rgba(0, 0, 0, 1) 47%,
+    rgba(8, 0, 54, 1) 65%,
+    rgba(8, 0, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
-    .container{
-        max-width: 1024px;
-        margin: 1rem auto;
-    }
+  .container {
+    max-width: 1024px;
+    margin: 1rem auto;
+  }
 }

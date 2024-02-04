@@ -1,53 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">  
-<link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <main class="container">
-        <header class="header">
-            <img class="photo" src="./assets/img/profile.jpg" alt="profile Luiz Guilherme">
-            <div class="header-info">
+      <header class="header">
+        <img
+          class="photo"
+          src="./assets/img/profile.jpg"
+          alt="profile Luiz Guilherme"
+        />
+        <div class="header-info">
+          <h1 class="title">
+            Olá, eu sou <br />
+            Luiz G Almeida
+          </h1>
 
-                <h1 class="title" >Olá, eu sou <br> Luiz G Almeida</h1>
-            
-                <div class="info">
-    
-                    <p class="contact">Junior Developer</p>
-                    <p class="locate">Minas Gerais - BR</p>
-                    <p class="whats">(32) 99118-7506</p>
-                    <p class="email">contato.guilhermealmeida@gmail.com</p>
-    
-                </div>
+          <div class="info">
+            <p class="contact">Junior Developer</p>
+            <p class="locate">Minas Gerais - BR</p>
+            <p class="whats">(32) 99118-7506</p>
+            <p class="email">contato.guilhermealmeida@gmail.com</p>
+          </div>
+        </div>
+      </header>
+      <section class="dropdown-container">
+
+          <div class="dropdown">
+            <div class="drop-header">
+              <h1>Skills</h1>
+              <span class="arrow"></span>
             </div>
-        </header>
-        <section class="dropdown-container">
-            <div class="dropdown">
-                <div class="drop-header">
-                    <h1>Idiomas</h1>
-                    <span class="arrow"></span>
+            <div class="skill">
+              <div class="box">
+                <h4>Habilidade Profissional</h4>
+                <div class="boxskillpro">
+                  <span><img src="/assets/icons/linux.svg" alt=""> </span>
+                  <span><img src="/assets/icons/javascript.svg" alt=""></span>
+                  <span><img src="/assets/icons/html.svg" alt=""></span>
+                  <span><img src="/assets/icons/css.svg" alt=""></span>
+                  <span><img src="/assets/icons/python.svg" alt=""></span>
+                  <span><img src="/assets/icons/react.svg" alt=""></span>
                 </div>
-                <div class="idiomas">
-                    <ul>
-                        <li>Portugues Brasil</li>
-                        <li>ingles</li>
-                    </ul>
-    
+              </div>
+              <div class="box">
+                <h4>Habilidade Pessoal</h4>
+                <div class="boxskillpers">
+                  <ul>
+                      <li>Comunicação</li>
+                      <li>Organização</li>
+                      <li>Trabalho em equipe</li>
+                      <li>Comprometimento com resutados</li>
+                      <li>Facilidade com tarefas praticas</li>
+                  </ul>
                 </div>
+              </div>
             </div>
-            <div class="dropdown">
-                
-            </div>
-            
-        </section>
+          </div>
+
+        <div class="dropdown">
+          <div class="drop-header">
+            <h1>Idiomas</h1>
+            <span class="arrow"></span>
+          </div>
+          <div class="idiomas">
+            <ul>
+              <li>Portugues Brasil</li>
+              <li>ingles</li>
+            </ul>
+          </div>
+        </div>
+
+      </section>
     </main>
     <script defer src="./js/engine.js"></script>
-</body>
+  </body>
 </html>
