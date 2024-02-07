@@ -105,7 +105,7 @@
 
 .boxskillpro {
   gap: 0.7rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   max-width: 200px;
   display: flex;
   flex-wrap: wrap;
@@ -128,24 +128,86 @@
 }
 
 .boxskillpers li {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 .boxskillpro img {
   width: 50px;
 }
 
+.projects {
+  display: none;
+}
+
+.dropdown.open .projects {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.dropdown.open .projects li {
+  margin: 0.5rem 0.5rem;
+  list-style: none;
+}
+.dropdown.open .projects h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 1rem;
+}
+.dropdown.open .projects h3::before {
+  content: "";
+  min-width: 20px;
+  min-height: 20px;
+  margin-right: 0.5rem;
+  background-image: url("/assets/icons/github.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.experience {
+  display: none;
+}
+
+.dropdown.open .experience {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.dropdown.open .experience li {
+  margin: 0.5rem 0.5rem;
+  list-style: none;
+}
+.dropdown.open .experience span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 0rem 1rem 0rem;
+}
+.dropdown.open .experience span::before {
+  content: "";
+  min-width: 20px;
+  min-height: 20px;
+  margin-right: 0.5rem;
+  background-image: url("/assets/icons/calendar.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
 
 @media only screen and (min-width: 768px) {
-    .box{
-        justify-content: flex-start;
-        width: 50%;
-    }
-    .box ul{
-        max-width: 250px;
-        height: auto;
-    }
-    .box h4{
-        margin-top: 1rem;
-    }
-    
+  .box {
+    justify-content: flex-start;
+    width: 50%;
+  }
+  .box ul {
+    max-width: 250px;
+    height: auto;
+  }
+  .box h4 {
+    margin-top: 1rem;
+  }
 }
