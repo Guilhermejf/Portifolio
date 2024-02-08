@@ -5,4 +5,3 @@ drops.forEach((drop) => {
     drop.classList.toggle("open");
   });
 });
-console.log(drops);
