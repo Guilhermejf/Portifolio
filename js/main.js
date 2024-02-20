@@ -8,15 +8,25 @@ const profile = {
 
 const langUl = document.getElementById("lang");
 const softSkills = document.getElementById("softskills");
+const hardSkills = document.querySelector(".boxskillpro");
 
 async function listSoftSkills(profileData) {
   let sskills = profileData.skills.softSkills;
-  console.log(sskills);
   sskills.forEach((e) => {
     const line = document.createElement("li");
     line.innerHTML = e;
-    
     softSkills.appendChild(line);
+  });
+}
+async function listHardSkills(profileData) {
+  let hskills = profileData.skills.hardSkills;
+  console.log(hardSkills);
+  hskills.forEach((e) => {
+    const span = document.createElement("span");
+    const img = document.createElement("img");
+    hardSkills.appendChild(span);
+    span.appendChild(img);
+    img.src = e.logo;
   });
 }
 
@@ -42,4 +52,5 @@ function updateProfileInfo(profileData) {
   updateProfileInfo(profileData);
   listLanguages(profileData);
   listSoftSkills(profileData);
+  listHardSkills(profileData);
 })();

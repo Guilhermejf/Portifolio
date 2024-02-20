@@ -61,6 +61,7 @@
 
 .dropdown.open .idiomas ul {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   column-gap: 2.5rem;
   list-style: none;
@@ -104,8 +105,9 @@
 }
 
 .boxskillpro {
-  gap: 0.7rem;
-  margin-top: 3rem;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   max-width: 200px;
   display: flex;
   flex-wrap: wrap;
@@ -115,7 +117,7 @@
 }
 
 .boxskillpers {
-  margin-top: 1rem;
+  margin: 2rem 0 2rem;
   height: auto;
   width: 100%;
 }
