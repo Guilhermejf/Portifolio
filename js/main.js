@@ -7,6 +7,18 @@ const profile = {
 };
 
 const langUl = document.getElementById("lang");
+const softSkills = document.getElementById("softskills");
+
+async function listSoftSkills(profileData) {
+  let sskills = profileData.skills.softSkills;
+  console.log(sskills);
+  sskills.forEach((e) => {
+    const line = document.createElement("li");
+    line.innerHTML = e;
+    
+    softSkills.appendChild(line);
+  });
+}
 
 async function listLanguages(profileData) {
   let lang = profileData.languages;
@@ -29,4 +41,5 @@ function updateProfileInfo(profileData) {
   const profileData = await fetchProfileData();
   updateProfileInfo(profileData);
   listLanguages(profileData);
+  listSoftSkills(profileData);
 })();

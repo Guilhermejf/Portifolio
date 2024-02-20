@@ -75,6 +75,11 @@
   background-repeat: no-repeat;
 }
 
+#softskills {
+  display: flex;
+  flex-direction: row;
+}
+
 @media only screen and (min-width: 768px) {
   .info p::before {
     width: 15px;
@@ -116,5 +121,12 @@
   .header-info {
     display: flex;
     align-items: center;
+  }
+
+  #softskills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 3rem;
   }
 }
