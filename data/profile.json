@@ -1,7 +1,7 @@
 {
-    "name": "Luiz G Almeida",
+    "name": "Luiz Guilherme de Almeida",
     "photo": "https://avatars.githubusercontent.com/u/7990469?v=4",
-    "job": "Analista de Infra II",
+    "job": "Analista de Infraestrutura",
     "location": "Juiz de Fora - MG",
     "phone": "(32) 99118-7506",
     "email": "contato.guilhermealmeida@gmail.com",
@@ -12,20 +12,20 @@
           "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
         },
         {
-          "name": "Java",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+          "name": "JavaScript",
+          "logo": "https://img.icons8.com/fluency/48/javascript.png"
         },
         {
-          "name": "Angular",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+          "name": "Linux",
+          "logo": "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-linux-a-family-of-open-source-unix-like-operating-systems-based-on-the-linux-kernel-logo-bold-tal-revivo.png"
         },
         {
           "name": "React",
           "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
         },
         {
-          "name": "Mongodb",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+          "name": "SQL",
+          "logo": "https://img.icons8.com/ios/50/database--v1.png"
         },
         {
           "name": "Postgresql",
@@ -34,14 +34,12 @@
       ],
       "softSkills": [
         "Empatia",
-        "Liderança",
         "Trabalho em equipe",
-        "Flexibilidade",
-        "Organização"
+        "Flexibilidade"
       ]
     },
     "languages": [
-      "Português BR",
+      "Português",
       "Inglês (iniciante)"
     ],
     "portfolio": [
@@ -58,7 +56,7 @@
     ],
     "professionalExperience": [
       {
-        "name": "Analista de Redes",
+        "name": "Analista de Infraestrutura",
         "period": "2013 - até o momento",
         "description": "Administração de redes e servidores Windows e Linux.."
       },
@@ -68,7 +66,7 @@
         "description": "Instrutor de Informatica."
       },
       {
-        "name": "CEO / Brain Machine",
+        "name": "Instrutor",
         "period": "2010 - 2012",
         "description": "Instrutor de Informatica."
       }

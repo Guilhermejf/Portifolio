@@ -9,18 +9,19 @@ const profile = {
 const langUl = document.getElementById("lang");
 const softSkills = document.getElementById("softskills");
 const hardSkills = document.querySelector(".boxskillpro");
+const portUL = document.getElementById("listprojects");
+const xplist = document.getElementById("xplist");
 
-async function listSoftSkills(profileData) {
-  let sskills = profileData.skills.softSkills;
+function listSoftSkills(dados) {
+  let sskills = dados.skills.softSkills;
   sskills.forEach((e) => {
     const line = document.createElement("li");
     line.innerHTML = e;
     softSkills.appendChild(line);
   });
 }
-async function listHardSkills(profileData) {
-  let hskills = profileData.skills.hardSkills;
-  console.log(hardSkills);
+function listHardSkills(dados) {
+  let hskills = dados.skills.hardSkills;
   hskills.forEach((e) => {
     const span = document.createElement("span");
     const img = document.createElement("img");
@@ -30,13 +31,41 @@ async function listHardSkills(profileData) {
   });
 }
 
-async function listLanguages(profileData) {
-  let lang = profileData.languages;
+function listLanguages(dados) {
+  let lang = dados.languages;
   lang.forEach((element) => {
     const line = document.createElement("li");
     line.innerHTML = element;
     langUl.appendChild(line);
   });
+}
+
+function listPortifolio(dados) {
+  let port = dados.portfolio;
+  port.forEach((e) => {
+    let subtitle = document.createElement("h3");
+    let line = document.createElement("li");
+    subtitle.innerText = e.name;
+    line.innerHTML = e.url;
+    portUL.appendChild(subtitle);
+    portUL.appendChild(line);
+  });
+}
+
+function listXP(dados) {
+  let xp = dados.professionalExperience;
+  xp.forEach((x) => {
+    let subtitle = document.createElement("h3");
+    let period = document.createElement("span");
+    let description = document.createElement("li");
+    subtitle.innerText = x.name;
+    period.innerText = x.period;
+    description.innerText = x.description;
+    xplist.appendChild(subtitle);
+    xplist.appendChild(period);
+    xplist.appendChild(description);
+  });
+  console.log(xp);
 }
 
 function updateProfileInfo(profileData) {
@@ -53,4 +82,6 @@ function updateProfileInfo(profileData) {
   listLanguages(profileData);
   listSoftSkills(profileData);
   listHardSkills(profileData);
+  listPortifolio(profileData);
+  listXP(profileData);
 })();
