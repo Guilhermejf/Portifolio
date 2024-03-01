@@ -45,8 +45,12 @@ function listPortifolio(dados) {
   port.forEach((e) => {
     let subtitle = document.createElement("h3");
     let line = document.createElement("li");
+    let link = document.createElement("a");
     subtitle.innerText = e.name;
-    line.innerHTML = e.url;
+    link.href = e.url;
+    link.innerText = e.url
+    console.log(link)
+    line.appendChild(link)
     portUL.appendChild(subtitle);
     portUL.appendChild(line);
   });
@@ -65,7 +69,6 @@ function listXP(dados) {
     xplist.appendChild(period);
     xplist.appendChild(description);
   });
-  console.log(xp);
 }
 
 function updateProfileInfo(profileData) {

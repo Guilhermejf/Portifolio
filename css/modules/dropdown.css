@@ -145,6 +145,13 @@
   display: flex;
   flex-direction: column;
   justify-items: center;
+  overflow: hidden;
+  
+}
+
+.dropdown.open .projects a{
+  text-decoration: none;
+  color: white;
 }
 
 .dropdown.open .projects li {
