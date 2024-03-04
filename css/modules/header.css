@@ -15,7 +15,7 @@
   background-size: contain;
   top: 1rem;
   right: 1rem;
-  background-image: url("assets/icons/dots.svg");
+  background-image: url("/Portifolio/assets/icons/dots.svg");
 }
 
 .header .photo {

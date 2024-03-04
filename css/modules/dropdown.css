@@ -35,7 +35,7 @@
   display: inline-block;
   width: 30px;
   height: 20px;
-  background-image: url("assets/icons/arrow.svg");
+  background-image: url("/Portifolio/assets/icons/arrow.svg");
   background-repeat: no-repeat;
   background-size: contain;
   transition: 0.5s;
@@ -74,7 +74,7 @@
   height: 10px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("assets/icons/check.svg");
+  background-image: url("/Portifolio/assets/icons/check.svg");
   margin-right: 0.5rem;
   display: inline-block;
 }
@@ -169,7 +169,7 @@
   min-width: 20px;
   min-height: 20px;
   margin-right: 0.5rem;
-  background-image: url("assets/icons/github.svg");
+  background-image: url("/Portifolio/assets/icons/github.svg");
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
@@ -201,7 +201,7 @@
   min-width: 20px;
   min-height: 20px;
   margin-right: 0.5rem;
-  background-image: url("assets/icons/calendar.svg");
+  background-image: url("/Portifolio/assets/icons/calendar.svg");
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
