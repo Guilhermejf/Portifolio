@@ -55,22 +55,22 @@
 }
 
 .info .contact {
-  background-image: url(assets/icons/contact.svg);
+  background-image: url("../assets/icons/contact.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .info .email {
-  background-image: url(assets/icons/email.svg);
+  background-image: url("../assets/icons/email.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .info .whats {
-  background-image: url(assets/icons/whats.svg);
+  background-image: url("../assets/icons/whats.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .info .locate {
-  background-image: url(assets/icons/locate.svg);
+  background-image: url("../assets/icons/locate.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
