@@ -55,17 +55,17 @@
 }
 
 .info .contact {
-  background-image: url("Portifolio/assets/icons/contact.svg");
+  background-image: url("/Portifolio/assets/icons/contact.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .info .email {
-  background-image: url("./Portifolio/assets/icons/email.svg");
+  background-image: url("/Portifolio/assets/icons/email.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .info .whats {
-  background-image: url("../Portifolio/assets/icons/whats.svg");
+  background-image: url("/Portifolio/assets/icons/whats.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
