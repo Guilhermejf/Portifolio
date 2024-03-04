@@ -65,12 +65,12 @@
   background-repeat: no-repeat;
 }
 .info .whats {
-  background-image: url("assets/icons/whats.svg");
+  background-image: url("../Portifolio/assets/icons/whats.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .info .locate {
-  background-image: url("assets/icons/locate.svg");
+  background-image: url("/Portifolio/assets/icons/locate.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
