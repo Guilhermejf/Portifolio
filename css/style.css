@@ -1,4 +1,4 @@
-@import "/css/modules/reset.css";
-@import "/css/modules/main.css";
-@import "/css/modules/header.css";
-@import "/css/modules/dropdown.css";
+@import "./css/modules/reset.css";
+@import "./css/modules/main.css";
+@import "./css/modules/header.css";
+@import "./css/modules/dropdown.css";
